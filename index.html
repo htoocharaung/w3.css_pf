@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Site</title>
+  <link rel="icon" href="img/favicon.ico">
+
+  <link href="pro/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="external/type.js" charset="utf-8"></script>
+</head>
+<!-- learn js-scroll-trigger bootstrap window.location.href How To Create a Scrollspy-->
+
+<body>
+  <!-- clock -->
+
+  <div class="w3-display-container">
+    <div class="w3-display-left">
+      <div class="clock">
+  <div>
+    <div class="info date"></div>
+    <div class="info day"></div>
+  </div>
+  <div class="dot"></div>
+  <div>
+    <div class="hour-hand"></div>
+    <div class="minute-hand"></div>
+    <div class="second-hand"></div>
+  </div>
+  <div>
+    <span class="h3">3</span>
+    <span class="h6">6</span>
+    <span class="h9">9</span>
+    <span class="h12">12</span>
+  </div>
+  <div class="diallines"></div>
+</div>
+    </div>
+  </div>
+
+<!-- clock -->
+
+  <!-- <div class="navbar">
+    <div class="w3-display-container w3-top">
+      <div class="w3-display-left ">
+        <canvas id="canvas" width="100" height="100" style="padding-top: 100px;"></canvas>
+      </div>
+    </div>
+
+  </div> -->
+  <div class="w3-row about" id="about">
+    <div class="w3-col l6 w3-center">
+      <div class="w3-container">
+        <div>
+          <img class="w3-hover-shadow w3-round-xlarge img-profile" style="width: 30vw; margin-top: 10vw;" src="img/profile.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l6 w3-center">
+      <div class="w3-container">
+        <h1 style="font-size: 4vw;color: #66BFBF;margin-top: 5rem ; padding-top: 8vw; font-family: 'Sacramento', cursive;" class="hca">This is Htoo Char Aung!</h1>
+        <i class="fa-thin fa-horizontal-rule star-line"></i></i><i class="fa-thin fa-star star-line"></i><i class="star-line fa-thin fa-horizontal-rule"></i>
+        <h2 style=" color: #17695a;" class="font-weight-light mb-0">
+          <span style="font-size : 1.5vw;">Junior</span> <a href="" class="typewrite" data-period="1000" data-type='[ "Web Developer", "Graphic Designer", "Photographer", "Programmer" ]'>
+            <span style="font-size : 3vw;" class="wrap"></span>
+          </a>
+        </h2>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:10vw;" class="education" id="education">
+    <div class="w3-center">
+      <i style="font-size: 15vw; " class="fa-duotone fa-school icon-gold"></i>
+      <!-- <i style="font-size: 15vw; --fa-primary-color: red; --fa-secondary-color: #bfbfbf;" class="fa-duotone fa-diploma"></i> -->
+      <h2 class="w3-hover-text-teal" style="color: #e6ac00; font-size: 2.5vw;">Education</h2>
+    </div>
+    <div class="w3-row w3-center">
+      <div style="padding: 1.5vw; margin-bottom: 1.5vw;" class="w3-hover-shadow w3-row w3-center">
+
+
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/tu.jpg" alt="">
+        </div>
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/tu-profile.jpg" alt="">
+        </div>
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/tu-sgg.jpg" alt="">
+
+        </div>
+        <div class="w3-container w3-center">
+          <h3 class="">Technological University (Sagaing)</h3>
+        </div>
+
+      </div>
+      <!-- English access -->
+      <div style="padding: 1.5vw; margin-bottom: 1.5vw;" class="w3-hover-shadow w3-row w3-center">
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/ibec3.jpg" alt="">
+        </div>
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/ibec2.jpg" alt="">
+        </div>
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/ibec.jpg" alt="">
+        </div>
+        <div class="w3-col w3-center ">
+          <h3 class="">English Access Microscholarship Program (US Embassy & IBEC-Sagaing)</h3>
+        </div>
+      </div>
+      <!-- Phandeeyar -->
+      <div style="padding: 1.5vw; margin-bottom: 1.5vw;" class="w3-hover-shadow w3-row w3-center">
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;     width: 32.3vw;" src="img/pdy.jpg" alt="">
+        </div>
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/pdy1.jpg" alt="">
+        </div>
+        <div class="w3-col l4 w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/pdy2.jpg" alt="">
+        </div>
+        <div class="w3-col w3-center w3-display-container">
+          <h3 class="">Start-up Challenge (Innoviation Bus-Phandeeyar & SDCCI)</h3>
+        </div>
+      </div>
+      <!-- Excellent Guide -->
+      <div style="padding: 1.5vw; margin-bottom: 1.5vw;" class="w3-hover-shadow w3-row w3-center">
+        <div class="w3-col w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/eg.jpg" alt="">
+
+          <h3 class="">Excellent Guide Computer & Language Center (Yangon)</h3>
+        </div>
+      </div>
+
+      <!-- highscool -->
+      <div style="padding: 1.5vw; margin-bottom: 1.5vw;" class="w3-hover-shadow w3-row w3-center">
+        <div class="w3-col w3-center ">
+          <img class="w3-card-4 w3-round-large" style="height: 24vw;" src="img/hs.jpg" alt="">
+          <div class="w3-row">
+            <div class="w3-col s6 ">
+              <h3 class="">Wisdom Garden Private High School</h3>
+            </div>
+            <div class="w3-col s6">
+              <h3>Aung Myin Thyu Private High School</h3>
+            </div>
+            <div class="w3-col s6 ">
+              <h3>Basic Education High School (Ohndaw)</h3>
+            </div>
+            <div class="w3-col s6">
+              <h3>Basic Education High School (Branch - Mu Thar)</h3>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+      <!-- end div -->
+    </div>
+    <!-- end -->
+  </div>
+
+  <div style="margin-top:10vw;" class="w3-center" id="hobbies">
+    <i style="font-size: 15vw; " class="fa-duotone fa-hand-love icon-gold"></i>
+    <h2 class="w3-hover-text-teal" style="color: #e6ac00; font-size: 2.5vw;">Hobbies</h2>
+
+    <div style="margin-top: 4vw;" class="table">
+      <table class="table-hobbies IC">
+        <tr>
+          <td>
+            <h3 class="I">I <i style="margin-right: 2vw;" class="fa-duotone fa-heart-pulse icon-gold flicker-1"></i></h3>
+          </td>
+          <td>
+            <table>
+              <tr>
+
+                <td> <i style="font-size: 3vw;" class="fa-duotone fa-head-side-headphones icon-gold"></i> </td>
+              </tr>
+              <tr>
+
+                <td><i style="font-size: 3vw; " class="fa-duotone fa-clapperboard-play icon-gold"></i></td>
+              </tr>
+              <tr>
+
+                <td><i style="font-size: 3vw;" class="fa-duotone fa-code icon-gold"></i></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div style="margin-top:10vw;" class="w3-center" id="skills">
+    <i style="font-size: 15vw;" class="fa-duotone fa-diploma icon-gold"></i>
+    <h2 class="w3-hover-text-teal" style="color: #e6ac00; font-size: 2.5vw;">Skills</h2>
+    <div class="w3-row">
+      <div class="w3-col l6">
+        <table class="w3-table">
+          <tr>
+            <td>
+              <h4>Python</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>HTML</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>CSS</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Bootstrap</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Javascript</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Git and GitHub</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>JSON</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Skwtchware</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Wordpress</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Adobe Spark</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>w3.css</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>jQuery</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+        </table>
+      </div>
+      <div class="w3-col l6">
+        <table class="w3-table">
+          <tr>
+            <td>
+              <h4>Adobe Photoshop</h4>
+            </td>
+            <td <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Adobe Illustrator</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Solidworks</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Solidworks Visualizer</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Band Theme/Watchface Creation</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Android Os Customization</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Bootstrap Studio</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Wondershare Filmora</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Microsoft Office</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Heroku Cli</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Font Awesome</h4>
+            </td>
+            <td> <i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Photopea</h4>
+            </td>
+            <td><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i><i
+                style="margin-right:0.5vw" class="fa-duotone fa-stars icon-gold"></i> </td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="contact_icons w3-row-padding w3-center w3-hide-small w3-card">
+    <div class="w3-col w3-center" style="width:20%">
+      <i style="font-size: 5vw;" class="fa-duotone fa-address-card icon-gold jello-vertical"></i><i style="padding-bottom: 0.5vw; font-size: 4vw; margin-left:1rem; animation-duration: 1s; animation-delay: 0.5s; --fa-color: gold;"
+        class="fa-thin fa-angle-right w3-animate-fading"></i><i style="padding-bottom: 0.5vw; font-size: 4vw; margin-left:1rem; animation-duration: 1s; --fa-color: gold;" class="fa-thin fa-angle-right w3-animate-fading"></i>
+    </div>
+    <div class="w3-col w3-margin-bottom" style="width:20%">
+      <a href="https://www.facebook.com/htoocharaungeka"><img class="icon jello-vertical w3-hover-grayscale" src="facebook.png" alt=""></a>
+    </div>
+    <div class="w3-col w3-margin-bottom" style="width:20%">
+      <a href="https://m.me/htoocharaungeka"><img class="icon jello-vertical w3-hover-grayscale" src="messenger.png" alt=""></a>
+    </div>
+    <div class="w3-col w3-margin-bottom" style="width:20%">
+      <a href="https://t.me/eka_hc"> <img class="icon jello-vertical w3-hover-grayscale" src="telegram.png" alt=""></a>
+    </div>
+    <div class="w3-col w3-margin-bottom" style="width:20%">
+      <a href="https://www.instagram.com/htoocharaung_eka"><img class="icon jello-vertical w3-hover-grayscale" src="instagram.png" alt=""></a> </td>
+    </div>
+  </div>
+  <script defer src="pro/js/all.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
